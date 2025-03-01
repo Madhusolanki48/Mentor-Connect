@@ -1,5 +1,6 @@
 # Mentor Connect System
 
+
 Mentor Connect is a Django-based web application designed to streamline the process of connecting students with teachers for mentorship and scheduling meetings. This system features student registration with OTP verification, a robust teacher appointment dashboard, dynamic timetable views, and more.
 
 ## Table of Contents
