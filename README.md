@@ -20,14 +20,15 @@ Mentor Connect is a Django-based web application designed to streamline the proc
 - **Email Validation:** Only allows emails ending with `@stu.upes.ac.in`.
 - **OTP Verification:** After submitting the form, an OTP is sent to the registered email. Once the OTP is verified, the account is created.
 
-*![Registration Page Screenshot](Images\StudentRegistration.jpg)*
+*![Registration Page Screenshot](Images/StudentRegistration.jpg)*
+
 
 
 ### 2. Email Verification via OTP
 - **OTP Process:** Ensures that the student's email is verified through an OTP sent during registration.
 
-*![OTP Verification Screenshot](Images\Verification1.jpg)*
-*![OTP Verification Screenshot](Images\Verification2.jpg)*
+*![OTP Verification Screenshot 1](Images/Verification1.jpg)*
+*![OTP Verification Screenshot 2](Images/Verification2.jpg)*
 
 
 
@@ -35,7 +36,7 @@ Mentor Connect is a Django-based web application designed to streamline the proc
 - **Simple Form:** Includes fields for Email and Password.
 - **Forgot Password Option:** Allows users to recover their accounts if needed.
 
-*![Login Page Screenshot](Images\LoginImg.jpg)*
+*![Login Page Screenshot](Images/LoginImg.jpg)*
 
 
 ### 4. Dashboard
@@ -43,15 +44,15 @@ Mentor Connect is a Django-based web application designed to streamline the proc
 - **Recommendation System:** Suggests relevant teacher names as the student types.
 - **Feedback:** Displays a "No results found" message if there is no match.
 
-*![Dashboard Screenshot](Images\TDashboard1.jpg)*
-*![Dashboard Screenshot](Images\TDashboard2.jpg)*
+*![Dashboard Screenshot 1](Images/TDashboard1.jpg)*
+*![Dashboard Screenshot 2](Images/TDashboard2.jpg)*
 
 
 ### 5. Teacher Timetable View
 - **Dynamic Display:** Shows the teacher’s full timetable after selecting a teacher.
 - **Real-time Updates:** Reflects the current meeting status, showing occupied slots when a meeting is scheduled.
 
-*![Teacher Timetable Screenshot](Images\Timetable.jpg)*
+*![Teacher Timetable Screenshot](Images/Timetable.jpg)*
 
 
 ### 6. Meeting Request
@@ -59,7 +60,7 @@ Mentor Connect is a Django-based web application designed to streamline the proc
 - **Mode Selection:** Option to request a meeting by choosing either online or offline mode.
 - **Time Frame:** Students can specify their preferred meeting time.
 
-*![Meeting Request Screenshot](Images\MeetingRequest.jpg)*
+*![Meeting Request Screenshot](Images/MeetingRequest.jpg)*
 
 
 ### 7. Teacher Approval
