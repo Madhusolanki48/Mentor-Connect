@@ -20,66 +20,63 @@ Mentor Connect is a Django-based web application designed to streamline the proc
 - **Email Validation:** Only allows emails ending with `@stu.upes.ac.in`.
 - **OTP Verification:** After submitting the form, an OTP is sent to the registered email. Once the OTP is verified, the account is created.
 
-*![Registration Page Screenshot](path/to/registration-screenshot.png)*
-<!-- Replace with your registration page image -->
+*![Registration Page Screenshot](Images\StudentRegistration.jpg)*
+
 
 ### 2. Email Verification via OTP
 - **OTP Process:** Ensures that the student's email is verified through an OTP sent during registration.
 
-*![OTP Verification Screenshot](path/to/otp-screenshot.png)*
-<!-- Replace with your OTP verification image -->
+*![OTP Verification Screenshot](Images\Verification1.jpg)*
+*![OTP Verification Screenshot](Images\Verification2.jpg)*
+
+
 
 ### 3. Login Page
 - **Simple Form:** Includes fields for Email and Password.
 - **Forgot Password Option:** Allows users to recover their accounts if needed.
 
-*![Login Page Screenshot](path/to/login-screenshot.png)*
-<!-- Replace with your login page image -->
+*![Login Page Screenshot](Images\LoginImg.jpg)*
+
 
 ### 4. Dashboard
 - **Search Bar:** Allows students to search for professors.
 - **Recommendation System:** Suggests relevant teacher names as the student types.
 - **Feedback:** Displays a "No results found" message if there is no match.
 
-*![Dashboard Screenshot](path/to/dashboard-screenshot.png)*
-<!-- Replace with your dashboard image -->
+*![Dashboard Screenshot](Images\TDashboard1.jpg)*
+*![Dashboard Screenshot](Images\TDashboard2.jpg)*
+
 
 ### 5. Teacher Timetable View
 - **Dynamic Display:** Shows the teacher’s full timetable after selecting a teacher.
 - **Real-time Updates:** Reflects the current meeting status, showing occupied slots when a meeting is scheduled.
 
-*![Teacher Timetable Screenshot](path/to/timetable-screenshot.png)*
-<!-- Replace with your timetable view image -->
+*![Teacher Timetable Screenshot](Images\Timetable.jpg)*
+
 
 ### 6. Meeting Request
 - **Slot Selection:** Students can view available time slots on the teacher’s timetable.
 - **Mode Selection:** Option to request a meeting by choosing either online or offline mode.
 - **Time Frame:** Students can specify their preferred meeting time.
 
-*![Meeting Request Screenshot](path/to/meeting-request-screenshot.png)*
-<!-- Replace with your meeting request image -->
+*![Meeting Request Screenshot](Images\MeetingRequest.jpg)*
+
 
 ### 7. Teacher Approval
 - **Email Notifications:** Teachers receive an email for every meeting request.
 - **Direct Response:** Teachers can approve or decline meeting requests directly via email.
 - **Decline Reason:** Option for teachers to provide a reason if declining a request.
-
-*![Teacher Approval Notification Screenshot](path/to/teacher-approval-screenshot.png)*
-<!-- Replace with your teacher approval image -->
+  
 
 ### 8. Confirmation Notifications
 - **For Approved Meetings:** Both teacher and student receive confirmation emails.
 - **For Declined Meetings:** Emails include the reason for cancellation.
 
-*![Confirmation Email Screenshot](path/to/confirmation-email-screenshot.png)*
-<!-- Replace with your confirmation email image -->
 
 ### 9. Online Meeting Link and Calendar Reminder
 - **Google Meet Integration:** For online meetings, a Google Meet link is generated.
 - **Calendar Reminder:** The generated link is sent along with an option to add a calendar reminder.
 
-*![Online Meeting Details Screenshot](path/to/online-meeting-screenshot.png)*
-<!-- Replace with your online meeting details image -->
 
 ### 10. Database Setup
 - **Student Database:** Stores registration details.
@@ -87,14 +84,12 @@ Mentor Connect is a Django-based web application designed to streamline the proc
 - **Timetable Database:** Maintains schedule data (sample data for now).
 - **Meeting Details Database:** Logs meeting requests and statuses.
 
-*![Database Diagram/Screenshot](path/to/database-diagram.png)*
-<!-- Replace with your database diagram image -->
+
 
 ### 11. Dynamic Timetable Updates
 - **Real-time Sync:** The timetable automatically updates to reflect current meeting requests and scheduled events.
 
-*![Dynamic Timetable Update Screenshot](path/to/dynamic-timetable-screenshot.png)*
-<!-- Replace with your dynamic timetable update image -->
+
 
 ## Tech Stack
 - **Backend:** Django
